@@ -18,7 +18,7 @@ const Footer = () => {
                 </ul>
                 <ul className="social_nav">
                     <li><a href="https://www.facebook.com/groups/931815190299479"><img src={fb}/></a></li>
-                    <li><a href="https://github.com/DmytroTrutenko/educake.eu"><img src={git}/></a></li>
+                    <li><a href="https://github.com/DmytroTrutenko/educake"><img src={git}/></a></li>
                     <li><a href="https://www.instagram.com/"><img src={inst}/></a></li>
                     <li><a href="https://twitter.com/explore"><img src={twitt}/></a></li>
                 </ul>
