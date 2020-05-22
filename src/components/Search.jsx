@@ -41,6 +41,19 @@ const Search = () => {
                                     <option value="Нарва">Нарва</option>
                                 </select>
                             </div>
+                            <div className="input_group">
+                                <p>Язык обучения</p>
+                                <div className="cust-checkbox">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="ru"/>
+                                    <label htmlFor="vehicle1">Русский</label>
+                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="eng"/>
+                                    <label htmlFor="vehicle2">Аглийский</label>
+                                    <input type="checkbox" id="vehicle3" name="vehicle3" value="esst"/>
+                                    <label htmlFor="vehicle3">Эстонский</label>
+                                </div>
+                            </div>
+
+
                         </div>
                         <div className="block-right">
                             <p>Стоимость обучения</p>

@@ -58,7 +58,7 @@ const Main = () => {
                             }} id='0' className={active === "0" ? "active" : ""}>ИТ-специалисты</a></li>
                             <li><a onClick={(e) => {
                                 tabToggle('Квалифицированные рабочие', e)
-                            }} id='1' className={active === "1" ? "active" : ""}>Квалифицированные рабочие</a></li>
+                            }} id='1' className={active === "1" ? "active" : ""}>Экономисты</a></li>
                             <li><a onClick={(e) => {
                                 tabToggle('Медицинские работники', e)
                             }} id='2' className={active === "2" ? "active" : ""}>Медицинские работники</a></li>
