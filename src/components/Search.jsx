@@ -89,6 +89,40 @@ const Search = () => {
                                 <a href="#" className="btn btn-dark">Узнать больше</a>
                             </div>
                         </div>
+                        <div className="item">
+                            <div className="name-img">
+                                <h3>Таллинский технический университет</h3>
+                                <img src={ttu} alt="img"/>
+                            </div>
+                            <div className="desc">
+                                <p>Бакалавр, Магистр</p>
+                                <p>Обучение: заочное или очное</p>
+                                <p>Язык обучения: Анг, Эст</p>
+                                <p>Таллин</p>
+                            </div>
+                            <div className="price-btn">
+                                <p>Строитель</p>
+                                <span>Годовая оплата: 3860€</span>
+                                <a href="#" className="btn btn-dark">Узнать больше</a>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="name-img">
+                                <h3>Таллинский технический университет</h3>
+                                <img src={ttu} alt="img"/>
+                            </div>
+                            <div className="desc">
+                                <p>Бакалавр, Магистр</p>
+                                <p>Обучение: заочное или очное</p>
+                                <p>Язык обучения: Анг, Эст</p>
+                                <p>Таллин</p>
+                            </div>
+                            <div className="price-btn">
+                                <p>Веб-дизайн</p>
+                                <span>Годовая оплата: 3860€</span>
+                                <a href="#" className="btn btn-dark">Узнать больше</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
