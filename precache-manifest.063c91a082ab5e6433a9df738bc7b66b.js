@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2542a826478f8d2a275db6da33579d6e",
+    "revision": "f9c8d8bfce19a1cce7512a88cb9ae99c",
     "url": "/educake/index.html"
   },
   {
-    "revision": "4ee2ba16b146f735d849",
+    "revision": "0fac1d13e9b5c1c65ba2",
     "url": "/educake/static/css/2.b8d7bdcb.chunk.css"
   },
   {
-    "revision": "0544e60383a48fe79bf5",
-    "url": "/educake/static/css/main.9819f3f2.chunk.css"
+    "revision": "304a79364c87009bb51e",
+    "url": "/educake/static/css/main.aacf52ab.chunk.css"
   },
   {
-    "revision": "4ee2ba16b146f735d849",
-    "url": "/educake/static/js/2.3548036f.chunk.js"
+    "revision": "0fac1d13e9b5c1c65ba2",
+    "url": "/educake/static/js/2.4dbc7033.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/educake/static/js/2.3548036f.chunk.js.LICENSE.txt"
+    "url": "/educake/static/js/2.4dbc7033.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0544e60383a48fe79bf5",
-    "url": "/educake/static/js/main.b4fa4736.chunk.js"
+    "revision": "304a79364c87009bb51e",
+    "url": "/educake/static/js/main.3b5943eb.chunk.js"
   },
   {
     "revision": "b6595bc90ee982b24140",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/educake/static/media/instagram.f4bb5629.png"
   },
   {
-    "revision": "41e0e011e37d5fc91e70e139aa60b10c",
-    "url": "/educake/static/media/kval_rab.41e0e011.jpg"
+    "revision": "53286bef289eeb8deb94ac208aac9c1b",
+    "url": "/educake/static/media/kval_rab.53286bef.jpg"
   },
   {
     "revision": "7df347d8aa1cb6a1a62d9e2d2719a627",
