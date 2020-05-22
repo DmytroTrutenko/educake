@@ -1,10 +1,11 @@
 import React, {useState} from "react";
-import mainor from '../assets/mainor.jpg';
+import mainor from '../assets/images.png';
 import ttu from '../assets/ttu.jpg';
 import tartuuli from '../assets/tartuulikool.png';
 import it from '../assets/IT_spec.jpg';
 import kval from '../assets/kval_rab.jpg';
 import doctors from '../assets/doctors.jpg';
+import {NavLink} from "react-router-dom";
 
 const Main = () => {
 
@@ -31,7 +32,7 @@ const Main = () => {
                         <h3>Желаешь найти университет в Эстонии?</h3>
                         <p>Найди свой будущий университет в Эстонии через поиск</p>
                     </div>
-                    <a href="#" className="btn btn-dark">Поиск университета</a>
+                    <NavLink to="/search" className="btn btn-dark">Поиск университета</NavLink>
                 </div>
             </section>
             {/*pop_univer*/}
@@ -39,9 +40,9 @@ const Main = () => {
                 <div className="container">
                     <h4>Cамые популярные университеты среди абитуриентов Эстонии</h4>
                     <div className="top_uni">
-                        <a href="#" className="item1"><img src={mainor} alt=""/></a>
-                        <a href="#" className="item2"><img src={ttu} alt=""/></a>
-                        <a href="#" className="item3"><img src={tartuuli} alt=""/></a>
+                        <a href="https://www.eek.ee/" className="item1"><img src={mainor} alt=""/></a>
+                        <a href="https://www.ttu.ee/" className="item2"><img src={ttu} alt=""/></a>
+                        <a href="https://www.ut.ee/et" className="item3"><img src={tartuuli} alt=""/></a>
                     </div>
                 </div>
             </section>
