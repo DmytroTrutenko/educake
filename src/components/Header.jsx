@@ -7,15 +7,13 @@ import {NavLink} from "react-router-dom";
 import counterpart from 'counterpart';
 
 
-
-
 const Header = ({mainChangeLang}) => {
 
     const [active, setActive] = useState(false);
     const main = counterpart.translate('menu.main');
     const search = counterpart.translate('menu.search');
     const about = counterpart.translate('menu.about');
-    
+
     const onLangChange = (e) => {
         mainChangeLang(e);
     };
@@ -39,9 +37,21 @@ const Header = ({mainChangeLang}) => {
                     <li><NavLink to="/about">{about}</NavLink></li>
                 </ul>
                 <ul className="lang">
-                    <button value='ruLang' onClick={(e)=>{onLangChange(e)}}>ru</button>
-                    <button value='engLang' onClick={(e)=>{onLangChange(e)}}>eng</button>
-                    <button value='esstLang' onClick={(e)=>{onLangChange(e)}}>estti</button>
+                    <li>
+                        <button value='ruLang' onClick={(e) => {
+                            onLangChange(e)
+                        }}><img src={ru} alt="ru"/></button>
+                    </li>
+                    <li>
+                        <button value='engLang' onClick={(e) => {
+                            onLangChange(e)
+                        }}><img src={eng} alt="eng"/></button>
+                    </li>
+                    <li>
+                        <button value='esstLang' onClick={(e) => {
+                            onLangChange(e)
+                        }}><img src={est} alt="est"/></button>
+                    </li>
                 </ul>
             </div>
         </header>
