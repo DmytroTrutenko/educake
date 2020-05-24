@@ -6,7 +6,7 @@ export default {
     },
     main: {
         call_action: {
-            h3_1: 'Looking for an university in Estonia where you could study?',
+            h3_1: 'Looking for a university in Estonia?',
             p1: 'Use our search to find the one that suits you best',
             btn1: 'Search for university'
         },
