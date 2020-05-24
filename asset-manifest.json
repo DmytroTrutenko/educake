@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/educake/static/css/main.aacf52ab.chunk.css",
-    "main.js": "/educake/static/js/main.3b5943eb.chunk.js",
-    "main.js.map": "/educake/static/js/main.3b5943eb.chunk.js.map",
-    "runtime-main.js": "/educake/static/js/runtime-main.6f86f252.js",
-    "runtime-main.js.map": "/educake/static/js/runtime-main.6f86f252.js.map",
-    "static/css/2.b8d7bdcb.chunk.css": "/educake/static/css/2.b8d7bdcb.chunk.css",
-    "static/js/2.4dbc7033.chunk.js": "/educake/static/js/2.4dbc7033.chunk.js",
-    "static/js/2.4dbc7033.chunk.js.map": "/educake/static/js/2.4dbc7033.chunk.js.map",
+    "main.css": "/educake/static/css/main.db58594b.chunk.css",
+    "main.js": "/educake/static/js/main.ce38fc8e.chunk.js",
+    "main.js.map": "/educake/static/js/main.ce38fc8e.chunk.js.map",
+    "runtime-main.js": "/educake/static/js/runtime-main.32b0e635.js",
+    "runtime-main.js.map": "/educake/static/js/runtime-main.32b0e635.js.map",
+    "static/css/2.14fbd4c8.chunk.css": "/educake/static/css/2.14fbd4c8.chunk.css",
+    "static/js/2.5a967a07.chunk.js": "/educake/static/js/2.5a967a07.chunk.js",
+    "static/js/2.5a967a07.chunk.js.map": "/educake/static/js/2.5a967a07.chunk.js.map",
     "index.html": "/educake/index.html",
-    "precache-manifest.063c91a082ab5e6433a9df738bc7b66b.js": "/educake/precache-manifest.063c91a082ab5e6433a9df738bc7b66b.js",
+    "precache-manifest.bef78f87624c6004fe19c6392118949f.js": "/educake/precache-manifest.bef78f87624c6004fe19c6392118949f.js",
     "service-worker.js": "/educake/service-worker.js",
-    "static/css/2.b8d7bdcb.chunk.css.map": "/educake/static/css/2.b8d7bdcb.chunk.css.map",
-    "static/css/main.aacf52ab.chunk.css.map": "/educake/static/css/main.aacf52ab.chunk.css.map",
-    "static/js/2.4dbc7033.chunk.js.LICENSE.txt": "/educake/static/js/2.4dbc7033.chunk.js.LICENSE.txt",
+    "static/css/2.14fbd4c8.chunk.css.map": "/educake/static/css/2.14fbd4c8.chunk.css.map",
+    "static/css/main.db58594b.chunk.css.map": "/educake/static/css/main.db58594b.chunk.css.map",
+    "static/js/2.5a967a07.chunk.js.LICENSE.txt": "/educake/static/js/2.5a967a07.chunk.js.LICENSE.txt",
     "static/media/IT_spec.jpg": "/educake/static/media/IT_spec.df30e967.jpg",
     "static/media/index.scss": "/educake/static/media/bg_call_action2.555b16cb.jpg",
     "static/media/coin.png": "/educake/static/media/coin.494f7c52.png",
@@ -33,10 +33,10 @@
     "static/media/twitter.png": "/educake/static/media/twitter.b757f2bc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f86f252.js",
-    "static/css/2.b8d7bdcb.chunk.css",
-    "static/js/2.4dbc7033.chunk.js",
-    "static/css/main.aacf52ab.chunk.css",
-    "static/js/main.3b5943eb.chunk.js"
+    "static/js/runtime-main.32b0e635.js",
+    "static/css/2.14fbd4c8.chunk.css",
+    "static/js/2.5a967a07.chunk.js",
+    "static/css/main.db58594b.chunk.css",
+    "static/js/main.ce38fc8e.chunk.js"
   ]
 }

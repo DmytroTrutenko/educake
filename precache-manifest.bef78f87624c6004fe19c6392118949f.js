@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9c8d8bfce19a1cce7512a88cb9ae99c",
+    "revision": "8d53cacdaea951382687c00cdcff2928",
     "url": "/educake/index.html"
   },
   {
-    "revision": "0fac1d13e9b5c1c65ba2",
-    "url": "/educake/static/css/2.b8d7bdcb.chunk.css"
+    "revision": "98a7e2d9dc7cf1ae0f9c",
+    "url": "/educake/static/css/2.14fbd4c8.chunk.css"
   },
   {
-    "revision": "304a79364c87009bb51e",
-    "url": "/educake/static/css/main.aacf52ab.chunk.css"
+    "revision": "92cd213775c83498c28f",
+    "url": "/educake/static/css/main.db58594b.chunk.css"
   },
   {
-    "revision": "0fac1d13e9b5c1c65ba2",
-    "url": "/educake/static/js/2.4dbc7033.chunk.js"
+    "revision": "98a7e2d9dc7cf1ae0f9c",
+    "url": "/educake/static/js/2.5a967a07.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/educake/static/js/2.4dbc7033.chunk.js.LICENSE.txt"
+    "url": "/educake/static/js/2.5a967a07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "304a79364c87009bb51e",
-    "url": "/educake/static/js/main.3b5943eb.chunk.js"
+    "revision": "92cd213775c83498c28f",
+    "url": "/educake/static/js/main.ce38fc8e.chunk.js"
   },
   {
-    "revision": "b6595bc90ee982b24140",
-    "url": "/educake/static/js/runtime-main.6f86f252.js"
+    "revision": "a0fcfe7f7322f29be948",
+    "url": "/educake/static/js/runtime-main.32b0e635.js"
   },
   {
     "revision": "df30e96764ac293876ebada2a0e7c381",
