@@ -416,6 +416,10 @@ img {
   }
 
   .end {
+    color: #e5e5e5;
+    span{
+      margin-right: 5px;
+    }
     position: absolute;
     left: 0;
     bottom: -70px;
@@ -862,6 +866,11 @@ img {
   }
   .cust-checkbox {
     margin-left: 0;
+  }
+  .end{
+    p{
+      display: none;
+    }
   }
 }
 
