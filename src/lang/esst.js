@@ -16,7 +16,7 @@ export default {
         pop_spec: {
             h4_2: 'Allolevad erialad olid kõige otsivamad meie kasutajate seas',
             li_1: 'IT-spetsialistid',
-            l2_2: 'Majandusteadlased',
+            li_2: 'Majandusteadlased',
             li_3: 'Meditsiinitöötajad'
         }
     },
@@ -34,7 +34,7 @@ export default {
         p12: 'Keel: Inglise, Eestlane',
         p13: 'Tallinn',
         p14: 'Veebitehnoloogia',
-        p15: 'Данный поисковик был создан для практической работы в университете.',
+        p15: 'See otsingumootor loodi praktiliseks tööks ülikoolis.',
         span: 'Õppeaasta hind: 3860€',
         btn4: 'Vaata lähemalt',
         select: {

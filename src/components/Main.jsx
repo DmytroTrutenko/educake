@@ -6,6 +6,8 @@ import it from '../assets/IT_spec.jpg';
 import kval from '../assets/kval_rab.jpg';
 import doctors from '../assets/doctors.jpg';
 import {NavLink} from "react-router-dom";
+import counterpart from 'counterpart';
+
 
 const Main = () => {
 
@@ -14,14 +16,22 @@ const Main = () => {
 
     const tabToggle = (txt, e) => {
         setActive(e.target.id);
-        if (txt === 'ИТ-специалисты') {
+        if (txt === ite) {
             return setImg_tabs(it);
-        } else if (txt === 'Квалифицированные рабочие') {
+        } else if (txt === eco) {
             return setImg_tabs(kval);
-        } else if (txt === 'Медицинские работники') {
+        } else if (txt === doc) {
             return setImg_tabs(doctors);
         }
     };
+
+    //функция смены языка
+    const lt = (str) => {
+        return counterpart.translate(str)
+    };
+    const ite = lt('main.pop_spec.li_1');
+    const eco = lt('main.pop_spec.li_2');
+    const doc = lt('main.pop_spec.li_3');
 
     return (
         <main className="main">
@@ -29,16 +39,16 @@ const Main = () => {
             <section className="call_action">
                 <div className="container">
                     <div className="call_action_text">
-                        <h3>Желаешь найти университет в Эстонии?</h3>
-                        <p>Найди свой будущий университет в Эстонии через поиск</p>
+                        <h3>{lt('main.call_action.h3_1')}</h3>
+                        <p>{lt('main.call_action.p1')}</p>
                     </div>
-                    <NavLink to="/search" className="btn btn-dark">Поиск университета</NavLink>
+                    <NavLink to="/search" className="btn btn-dark">{lt('main.call_action.btn1')}</NavLink>
                 </div>
             </section>
             {/*pop_univer*/}
             <section className="pop_univer">
                 <div className="container">
-                    <h4>Cамые популярные университеты среди абитуриентов Эстонии</h4>
+                    <h4>{lt('main.pop_univer.h4_1')}</h4>
                     <div className="top_uni">
                         <a href="https://www.eek.ee/" className="item1"><img src={mainor} alt=""/></a>
                         <a href="https://www.ttu.ee/" className="item2"><img src={ttu} alt=""/></a>
@@ -49,19 +59,19 @@ const Main = () => {
             {/*pop_spec*/}
             <section className="pop_spec">
                 <div className="container">
-                    <h4>Чаще всего на нашем сайте искали эти учебные специальности</h4>
+                    <h4>{lt('main.pop_spec.h4_2')}</h4>
 
                     <div className="pop_spec_tabs">
                         <ul className="nav_tabs">
                             <li><a onClick={(e) => {
-                                tabToggle('ИТ-специалисты', e)
-                            }} id='0' className={active === "0" ? "active" : ""}>ИТ-специалисты</a></li>
+                                tabToggle(ite, e)
+                            }} id='0' className={active === "0" ? "active" : ""}>{ite}</a></li>
                             <li><a onClick={(e) => {
-                                tabToggle('Квалифицированные рабочие', e)
-                            }} id='1' className={active === "1" ? "active" : ""}>Экономисты</a></li>
+                                tabToggle(eco, e)
+                            }} id='1' className={active === "1" ? "active" : ""}>{eco}</a></li>
                             <li><a onClick={(e) => {
-                                tabToggle('Медицинские работники', e)
-                            }} id='2' className={active === "2" ? "active" : ""}>Медицинские работники</a></li>
+                                tabToggle(doc, e)
+                            }} id='2' className={active === "2" ? "active" : ""}>{doc}</a></li>
                         </ul>
                         <div className="tab_content">
                             <div className="tab_item" id="tab1"><img src={img_tabs} alt="img"/></div>

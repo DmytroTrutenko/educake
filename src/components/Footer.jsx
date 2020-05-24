@@ -5,16 +5,22 @@ import fb from '../assets/fb.png';
 import git from '../assets/github.png';
 import inst from '../assets/instagram.png';
 import twitt from '../assets/twitter.png';
+import counterpart from "counterpart";
 
 const Footer = () => {
+
+    const main = counterpart.translate('menu.main');
+    const search = counterpart.translate('menu.search');
+    const about = counterpart.translate('menu.about');
+
     return (
         <footer className="footer">
             <div className="container">
                 <NavLink to="/" className="logo"><img src={logo} alt="logo"/></NavLink>
                 <ul className="footer_nav">
-                    <li><NavLink to="/">Главная</NavLink></li>
-                    <li><NavLink to="/search">Поиск</NavLink></li>
-                    <li><NavLink to="/about">О нас</NavLink></li>
+                    <li><NavLink to="/">{main}</NavLink></li>
+                    <li><NavLink to="/search">{search}</NavLink></li>
+                    <li><NavLink to="/about">{about}</NavLink></li>
                 </ul>
                 <ul className="social_nav">
                     <li><a href="https://www.facebook.com/groups/931815190299479"><img src={fb}/></a></li>

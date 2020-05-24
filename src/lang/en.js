@@ -16,7 +16,7 @@ export default {
         pop_spec: {
             h4_2: 'These 3 specialities were the most popular search criterias for our users',
             li_1: 'IT-specialists',
-            l2_2: 'Economists',
+            li_2: 'Economists',
             li_3: 'Medical workers'
         }
     },
@@ -44,9 +44,9 @@ export default {
             option4: 'Full-time',
             option5: 'Part-time',
             option6: 'Session study',
-            option7: 'Таллинн',
-            option8: 'Тарту',
-            option9: 'Нарва'
+            option7: 'Tallinn',
+            option8: 'Tartu',
+            option9: 'Narva'
         },
         label1: 'Russian',
         label2: 'English',
