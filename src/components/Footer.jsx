@@ -29,8 +29,7 @@ const Footer = () => {
                     <li><a href="https://twitter.com/explore"><img src={twitt}/></a></li>
                 </ul>
                 <div className="end">
-                    <p>Mainor</p>
-                    <p>2020</p>
+                    <p>© 2020 Mainor</p>
                 </div>
             </div>
         </footer>

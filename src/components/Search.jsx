@@ -39,6 +39,7 @@ const Search = () => {
                             <div className="input_group">
                                 <p>{lt('search.p4')}</p>
                                 <select name="" id="">
+                                    <option value=''></option>
                                     <option value={option1}>{option1}</option>
                                     <option value={option2}>{option2}</option>
                                     <option value={option3}>{option3}</option>
@@ -47,6 +48,7 @@ const Search = () => {
                             <div className="input_group">
                                 <p>{lt('search.p5')}</p>
                                 <select name="" id="">
+                                    <option value=''></option>
                                     <option value={option4}>{option4}</option>
                                     <option value={option5}>{option5}</option>
                                     <option value={option6}>{option6}</option>
@@ -55,6 +57,7 @@ const Search = () => {
                             <div className="input_group">
                                 <p>{lt('search.p6')}</p>
                                 <select name="" id="">
+                                    <option value=''></option>
                                     <option value={option7}>{option7}</option>
                                     <option value={option8}>{option8}</option>
                                     <option value={option9}>{option9}</option>

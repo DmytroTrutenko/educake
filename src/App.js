@@ -15,11 +15,11 @@ import esstLang from "./lang/esst";
 counterpart.registerTranslations('ruLang', ruLang);
 counterpart.registerTranslations('engLang', engLang);
 counterpart.registerTranslations('esstLang', esstLang);
-counterpart.setLocale('ruLang');
+counterpart.setLocale('esstLang');
 
 function App() {
 
-    const [lang, setLang] = useState('ruLang');
+    const [lang, setLang] = useState('esstLang');
 
     const mainChangeLang = (e) => {
         setLang(e.target.value);
