@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/educake/static/css/main.f3b9f532.chunk.css",
-    "main.js": "/educake/static/js/main.2ef50c58.chunk.js",
-    "main.js.map": "/educake/static/js/main.2ef50c58.chunk.js.map",
+    "main.js": "/educake/static/js/main.0fc3966c.chunk.js",
+    "main.js.map": "/educake/static/js/main.0fc3966c.chunk.js.map",
     "runtime-main.js": "/educake/static/js/runtime-main.32b0e635.js",
     "runtime-main.js.map": "/educake/static/js/runtime-main.32b0e635.js.map",
     "static/css/2.14fbd4c8.chunk.css": "/educake/static/css/2.14fbd4c8.chunk.css",
     "static/js/2.6b6d90cb.chunk.js": "/educake/static/js/2.6b6d90cb.chunk.js",
     "static/js/2.6b6d90cb.chunk.js.map": "/educake/static/js/2.6b6d90cb.chunk.js.map",
     "index.html": "/educake/index.html",
-    "precache-manifest.fe04a77d2e6360ebcf47fa73b6259323.js": "/educake/precache-manifest.fe04a77d2e6360ebcf47fa73b6259323.js",
+    "precache-manifest.4892aea1cd39f88090c487113807372e.js": "/educake/precache-manifest.4892aea1cd39f88090c487113807372e.js",
     "service-worker.js": "/educake/service-worker.js",
     "static/css/2.14fbd4c8.chunk.css.map": "/educake/static/css/2.14fbd4c8.chunk.css.map",
     "static/css/main.f3b9f532.chunk.css.map": "/educake/static/css/main.f3b9f532.chunk.css.map",
@@ -37,6 +37,6 @@
     "static/css/2.14fbd4c8.chunk.css",
     "static/js/2.6b6d90cb.chunk.js",
     "static/css/main.f3b9f532.chunk.css",
-    "static/js/main.2ef50c58.chunk.js"
+    "static/js/main.0fc3966c.chunk.js"
   ]
 }
