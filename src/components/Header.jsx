@@ -18,6 +18,7 @@ const Header = ({mainChangeLang}) => {
         mainChangeLang(e);
     };
 
+
     return (
         <header className="header">
             <div className="container">
@@ -32,9 +33,18 @@ const Header = ({mainChangeLang}) => {
                 </div>
                 <NavLink to="/" className="logo"><img src={logo} alt="logo"/></NavLink>
                 <ul className={active ? 'main_nav active' : 'main_nav'}>
-                    <li><NavLink to="/">{main}</NavLink></li>
-                    <li><NavLink to="/search">{search}</NavLink></li>
-                    <li><NavLink to="/about">{about}</NavLink></li>
+                    <li><NavLink to="/" onClick={
+                        () => {
+                            setActive(active ? !active : true)
+                        }}>{main}</NavLink></li>
+                    <li><NavLink to="/search" onClick={
+                        () => {
+                            setActive(active ? !active : true)
+                        }}>{search}</NavLink></li>
+                    <li><NavLink to="/about" onClick={
+                        () => {
+                            setActive(active ? !active : true)
+                        }}>{about}</NavLink></li>
                 </ul>
                 <ul className="lang">
                     <li>
@@ -57,7 +67,7 @@ const Header = ({mainChangeLang}) => {
                     onLangChange(e)
                 }}>
                     <option value="ruLang">Рус</option>
-                    <option value="engLang" >Eng</option>
+                    <option value="engLang">Eng</option>
                     <option selected value="esstLang">Est</option>
                 </select>
             </div>

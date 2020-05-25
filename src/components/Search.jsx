@@ -1,8 +1,8 @@
 import React from "react";
 import PriceSlider from "./PriceSlider";
 import DurationSlider from "./DurationSlider";
-import ttu from '../assets/ttu.jpg';
 import counterpart from 'counterpart';
+import Card from "./Card";
 
 const Search = () => {
 
@@ -28,7 +28,7 @@ const Search = () => {
         <main className="main">
             <section className='search-form_section'>
                 <div className="container">
-                    <form action="#" className="searh-form">
+                    <form action="#"className="searh-form">
                         <div className="block-left">
                             <div className="input_group">
                                 <p>{lt('search.p2')}</p><input type="text"/>
@@ -104,57 +104,9 @@ const Search = () => {
                         </div>
                     </div>
                     <div className="card-items">
-                        <div className="item">
-                            <div className="name-img">
-                                <h3>{lt('search.h3_2')}</h3>
-                                <img src={ttu} alt="img"/>
-                            </div>
-                            <div className="desc">
-                                <p>{lt('search.p10')}</p>
-                                <p>{lt('search.p11')}</p>
-                                <p>{lt('search.p12')}</p>
-                                <p>{lt('search.p13')}</p>
-                            </div>
-                            <div className="price-btn">
-                                <p>{lt('search.p14')}</p>
-                                <span>{lt('search.span')}</span>
-                                <a href="#" className="btn btn-dark">{lt('search.btn4')}</a>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="name-img">
-                                <h3>{lt('search.h3_2')}</h3>
-                                <img src={ttu} alt="img"/>
-                            </div>
-                            <div className="desc">
-                                <p>{lt('search.p10')}</p>
-                                <p>{lt('search.p11')}</p>
-                                <p>{lt('search.p12')}</p>
-                                <p>{lt('search.p13')}</p>
-                            </div>
-                            <div className="price-btn">
-                                <p>{lt('search.p14')}</p>
-                                <span>{lt('search.span')}</span>
-                                <a href="#" className="btn btn-dark">{lt('search.btn4')}</a>
-                            </div>
-                        </div>
-                        <div className="item">
-                            <div className="name-img">
-                                <h3>{lt('search.h3_2')}</h3>
-                                <img src={ttu} alt="img"/>
-                            </div>
-                            <div className="desc">
-                                <p>{lt('search.p10')}</p>
-                                <p>{lt('search.p11')}</p>
-                                <p>{lt('search.p12')}</p>
-                                <p>{lt('search.p13')}</p>
-                            </div>
-                            <div className="price-btn">
-                                <p>{lt('search.p14')}</p>
-                                <span>{lt('search.span')}</span>
-                                <a href="#" className="btn btn-dark">{lt('search.btn4')}</a>
-                            </div>
-                        </div>
+                        <Card/>
+                        <Card/>
+                        <Card/>
                     </div>
                 </div>
             </section>
