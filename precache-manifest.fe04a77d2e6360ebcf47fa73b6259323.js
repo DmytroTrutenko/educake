@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "355a8561448b018ec7a5ae35ca832374",
+    "revision": "86add240c8a82d1aacf60abd58707007",
     "url": "/educake/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/educake/static/css/2.14fbd4c8.chunk.css"
   },
   {
-    "revision": "275c269d0cce2ac562ac",
+    "revision": "2227107c0ac2ad3f3db6",
     "url": "/educake/static/css/main.f3b9f532.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/educake/static/js/2.6b6d90cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "275c269d0cce2ac562ac",
-    "url": "/educake/static/js/main.aac3bcaf.chunk.js"
+    "revision": "2227107c0ac2ad3f3db6",
+    "url": "/educake/static/js/main.2ef50c58.chunk.js"
   },
   {
     "revision": "a0fcfe7f7322f29be948",
