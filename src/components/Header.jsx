@@ -35,15 +35,15 @@ const Header = ({mainChangeLang}) => {
                 <ul className={active ? 'main_nav active' : 'main_nav'}>
                     <li><NavLink to="/" onClick={
                         () => {
-                            setActive(active ? !active : true)
+                            setActive(false)
                         }}>{main}</NavLink></li>
                     <li><NavLink to="/search" onClick={
                         () => {
-                            setActive(active ? !active : true)
+                            setActive(false)
                         }}>{search}</NavLink></li>
                     <li><NavLink to="/about" onClick={
                         () => {
-                            setActive(active ? !active : true)
+                            setActive(false)
                         }}>{about}</NavLink></li>
                 </ul>
                 <ul className="lang">
@@ -68,7 +68,7 @@ const Header = ({mainChangeLang}) => {
                 }}>
                     <option value="ruLang">Рус</option>
                     <option value="engLang">Eng</option>
-                    <option selected value="esstLang">Est</option>
+                    <option selected value="esstLang">Eesti</option>
                 </select>
             </div>
         </header>
