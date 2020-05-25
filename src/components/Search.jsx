@@ -92,6 +92,17 @@ const Search = () => {
             <section className="search-result">
                 <div className="container">
                     <h4>{lt('search.h4_3')}</h4>
+                    <div className="seacrh_sort">
+                        <div>
+                            <span>{lt('search.sort.sorting')}</span>
+                            <select className='sort_select' name="" id="">
+                                <option value="">{lt('search.sort.cost_low_to_high')}</option>
+                                <option value="">{lt('search.sort.cost_high_to_low')}</option>
+                                <option value="">{lt('search.sort.duration_min_to_max')}</option>
+                                <option value="">{lt('search.sort.duration_max_to_min')}</option>
+                            </select>
+                        </div>
+                    </div>
                     <div className="card-items">
                         <div className="item">
                             <div className="name-img">

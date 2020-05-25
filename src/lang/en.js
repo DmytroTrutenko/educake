@@ -55,7 +55,14 @@ export default {
         btn3: 'Clear',
         h4_3: 'Search results',
         h3_2: 'Tallinn University',
-
+        mon: 'mon',
+        sort:{
+            sorting : 'Sorting',
+            cost_low_to_high: 'Cost low to high',
+            cost_high_to_low: 'Cost high to low',
+            duration_min_to_max: 'Duration min to max',
+            duration_max_to_min: 'Duration max to min'
+        }
     },
     about: {
         h4_4: 'Our team has created a platform for university searches for potential students in Estonia.',

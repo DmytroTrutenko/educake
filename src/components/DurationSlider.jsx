@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Slider from 'react-rangeslider'
 import 'react-rangeslider/lib/index.css'
+import counterpart from 'counterpart';
 
 class DurationSlider extends Component {
     constructor(props, context) {
@@ -20,7 +21,7 @@ class DurationSlider extends Component {
         let {month} = this.state;
         return (
             <div className='slider_val'>
-                <span>0м</span>
+                <span className='slid'>0{counterpart.translate('search.mon')}</span>
                 <Slider
                     min={0}
                     max={72}
@@ -29,7 +30,7 @@ class DurationSlider extends Component {
                     orientation="horizontal"
                     onChange={this.handleOnChange}
                 />
-                <span>72м</span>
+                <span>72{counterpart.translate('search.mon')}</span>
             </div>
         )
     }

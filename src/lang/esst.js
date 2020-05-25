@@ -23,7 +23,7 @@ export default {
     search: {
         p2: 'Ülikooli nimi:',
         p3: 'Eriala:',
-        p4: 'Grade:',
+        p4: 'Hinne:',
         p5: 'Õppevorm:',
         p6: 'Asukoht:',
         p7: 'Keel:',
@@ -31,7 +31,7 @@ export default {
         p9: 'Õppe kestus',
         p10: 'Bakalaureus, Magister',
         p11: 'Õppevorm: Päevaõpe, Kaugõpe',
-        p12: 'Keel: Inglise, Eestlane',
+        p12: 'Keel: Inglise, Essti',
         p13: 'Tallinn',
         p14: 'Veebitehnoloogia',
         p15: 'See otsingumootor loodi praktiliseks tööks ülikoolis.',
@@ -50,12 +50,19 @@ export default {
         },
         label1: 'Vene',
         label2: 'Inglise',
-        label3: 'Eestlane',
+        label3: 'Eesti',
         btn2: 'Otsing',
         btn3: 'Puhasta',
         h4_3: 'Otsingutulemused',
         h3_2: 'Tallinna Ülikool',
-
+        mon: 'kuud',
+        sort:{
+            sorting : 'Sortimine',
+            cost_low_to_high: 'Hind kasvavalt',
+            cost_high_to_low: 'Hind kahanevalt',
+            duration_min_to_max: 'Kestus kasvavalt',
+            duration_max_to_min: 'Kestus kahenevalt'
+        }
     },
     about:{
         h4_4:'Meie meeskond on loonud platvormi ülikoolide otsimiseks potentsiaalsetele üliõpilastele Eestis.',

@@ -99,6 +99,13 @@ img {
   .logo {
     margin: 0 auto 0 0;
   }
+
+  .lang_mob {
+    display: none;
+    outline: none;
+    padding: 3px;
+    border: none;
+  }
 }
 
 .main_nav {
@@ -417,9 +424,11 @@ img {
 
   .end {
     color: #e5e5e5;
-    span{
+
+    span {
       margin-right: 5px;
     }
+
     position: absolute;
     left: 0;
     bottom: -70px;
@@ -431,6 +440,10 @@ img {
 
 .main {
   min-height: 100vh;
+}
+
+.slid {
+  min-width: 53px;
 }
 
 .search-form_section {
@@ -475,7 +488,7 @@ img {
 
 
       .rangeslider {
-        margin: 20px 10px 60px;
+        margin: 20px 3px 60px;
         min-width: 70%;
       }
 
@@ -486,9 +499,7 @@ img {
       .slider_val {
         span {
           display: block;
-          width: 20px;
         }
-
         display: flex;
         justify-content: center;
       }
@@ -571,6 +582,25 @@ img {
 
 .search-result {
   padding: 70px 0;
+
+  .seacrh_sort {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-size: 14px;
+      display: block;
+    }
+
+    .sort_select {
+      padding: 3px;
+      outline: none;
+      border: solid 1px #d7d7d7;
+      width: 280px;
+      margin-bottom: 40px;
+    }
+  }
 }
 
 .about_section {
@@ -827,9 +857,10 @@ img {
   .footer .footer_nav {
     margin-bottom: 20px;
   }
-  .logo {
-
-    width: 120px;
+  .header {
+    .logo {
+      width: 120px;
+    }
   }
   .card-items .item > div {
     width: 100%;
@@ -867,10 +898,19 @@ img {
   .cust-checkbox {
     margin-left: 0;
   }
-  .end{
-    p{
-      display: none;
+  .header {
+    .lang {
+        display: none;
+      }
+
+    .lang_mob {
+      display: block;
     }
+  }
+  .search-result .seacrh_sort .sort_select {
+    width: 180px;
+    margin-bottom: 25px;
+    font-size: 14px;
   }
 }
 

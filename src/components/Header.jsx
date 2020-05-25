@@ -53,6 +53,13 @@ const Header = ({mainChangeLang}) => {
                         }}><img src={est} alt="est"/></button>
                     </li>
                 </ul>
+                <select name="" id="" className='lang_mob' onChange={(e) => {
+                    onLangChange(e)
+                }}>
+                    <option value="ruLang">Рус</option>
+                    <option value="engLang" >Eng</option>
+                    <option selected value="esstLang">Est</option>
+                </select>
             </div>
         </header>
     )
