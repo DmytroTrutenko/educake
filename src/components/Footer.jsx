@@ -7,6 +7,7 @@ import inst from '../assets/instagram.png';
 import twitt from '../assets/twitter.png';
 import counterpart from "counterpart";
 
+
 const Footer = () => {
 
     const main = counterpart.translate('menu.main');

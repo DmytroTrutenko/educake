@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import PriceSlider from "./PriceSlider";
 import DurationSlider from "./DurationSlider";
 import counterpart from 'counterpart';
 import Card from "./Card";
 
+
 const Search = () => {
+    const[disable, setDisable] = useState(true);
+    const[hide, setHide] = useState(true);
+
 
     //функция смены языка
     const lt = (str) => {
@@ -28,7 +32,7 @@ const Search = () => {
         <main className="main">
             <section className='search-form_section'>
                 <div className="container">
-                    <form action="#"className="searh-form">
+                    <form onChange={()=>{setDisable(false)}}  className='searh-form'>
                         <div className="block-left">
                             <div className="input_group">
                                 <p>{lt('search.p2')}</p><input type="text"/>
@@ -74,22 +78,23 @@ const Search = () => {
                                     <label htmlFor="vehicle3">{label3}</label>
                                 </div>
                             </div>
-
                         </div>
                         <div className="block-right">
                             <p>{lt('search.p8')}</p>
-                            <PriceSlider/>
+                            <PriceSlider value/>
                             <p>{lt('search.p9')}</p>
-                            <DurationSlider/>
+                            <DurationSlider value=''/>
                             <div className="buttons">
-                                <a href="#" className="btn btn-dark">{lt('search.btn2')}</a>
-                                <a href="#" className="btn btn-dark btn-clear">{lt('search.btn3')}</a>
+                                <button type="submit" onClick={()=>{
+                                    setHide(false);
+                                }} className="btn btn-dark">{lt('search.btn2')}</button>
+                                <button type="reset" value="Reset" className={disable ? 'btn btn-dark btn-clear disable' : 'btn btn-dark btn-clear'}>{lt('search.btn3')}</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </section>
-            <section className="search-result">
+            <section className={hide ? 'search-result hide_result' : 'search-result'}>
                 <div className="container">
                     <h4>{lt('search.h4_3')}</h4>
                     <div className="seacrh_sort">
@@ -103,7 +108,7 @@ const Search = () => {
                             </select>
                         </div>
                     </div>
-                    <div className="card-items">
+                    <div className='card-items'>
                         <Card/>
                         <Card/>
                         <Card/>

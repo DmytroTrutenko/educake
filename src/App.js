@@ -6,7 +6,6 @@ import {Switch, Route, HashRouter} from "react-router-dom";
 import Search from "./components/Search";
 import About from "./components/About";
 import ScrollToTop from "./components/ScrollToTop";
-
 import counterpart from "counterpart";
 import ruLang from "./lang/ru";
 import engLang from "./lang/en";

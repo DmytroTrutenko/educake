@@ -17,6 +17,7 @@ class DurationSlider extends Component {
         })
     };
 
+
     render() {
         let {month} = this.state;
         return (

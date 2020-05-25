@@ -23,7 +23,7 @@ export default {
     search: {
         p2: 'Ülikooli nimi:',
         p3: 'Eriala:',
-        p4: 'Hinne:',
+        p4: 'Õppetase:',
         p5: 'Õppevorm:',
         p6: 'Asukoht:',
         p7: 'Keel:',

@@ -507,7 +507,7 @@ img {
       .buttons {
         padding-left: 50px;
 
-        a {
+        button {
           padding: 8px 14px;
           margin: 0 15px;
         }
@@ -728,6 +728,14 @@ img {
   }
 }
 
+.disable{
+  pointer-events: none;
+  opacity: 0.5;
+}
+.hide_result{
+  display: none;
+}
+
 @media (max-width: 991px) {
   .call_action .btn {
     margin: 50px 0 0 0;
@@ -912,6 +920,10 @@ img {
     margin-bottom: 25px;
     font-size: 14px;
   }
+}
+
+.test{
+  padding: 200px 0;
 }
 
 
