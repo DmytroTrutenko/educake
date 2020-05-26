@@ -3,7 +3,7 @@ import counterpart from "counterpart";
 import ttu from "../assets/ttu.jpg";
 
 
-const Card = () => {
+const Card = (props) => {
 
     //функция смены языка
     const lt = (str) => {

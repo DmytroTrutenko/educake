@@ -4,6 +4,7 @@ import site from '../assets/site.png';
 import coin from '../assets/coin.png';
 import persons from '../assets/persons.png';
 import counterpart from "counterpart";
+import {univerAPI} from "../logic/api";
 
 
 const About = () => {

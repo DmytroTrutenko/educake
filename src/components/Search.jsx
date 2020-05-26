@@ -3,11 +3,11 @@ import PriceSlider from "./PriceSlider";
 import DurationSlider from "./DurationSlider";
 import counterpart from 'counterpart';
 import Card from "./Card";
-
+import {univerAPI} from "../logic/api";
 
 const Search = () => {
-    const[disable, setDisable] = useState(true);
-    const[hide, setHide] = useState(true);
+    const [disable, setDisable] = useState(true);
+    const [hide, setHide] = useState(true);
 
 
     //функция смены языка
@@ -28,11 +28,18 @@ const Search = () => {
         label3 = lt('search.label3');
 
 
+    const addTTU = async () => {
+        let response = await univerAPI.getTTU();
+        setHide(false);
+    };
+
     return (
         <main className="main">
             <section className='search-form_section'>
                 <div className="container">
-                    <form onChange={()=>{setDisable(false)}}  className='searh-form'>
+                    <form onChange={() => {
+                        setDisable(false)
+                    }} className='searh-form'>
                         <div className="block-left">
                             <div className="input_group">
                                 <p>{lt('search.p2')}</p><input type="text"/>
@@ -85,10 +92,11 @@ const Search = () => {
                             <p>{lt('search.p9')}</p>
                             <DurationSlider value=''/>
                             <div className="buttons">
-                                <button type="submit" onClick={()=>{
-                                    setHide(false);
+                                <button type="submit" onClick={() => {
+                                    addTTU();
                                 }} className="btn btn-dark">{lt('search.btn2')}</button>
-                                <button type="reset" value="Reset" className={disable ? 'btn btn-dark btn-clear disable' : 'btn btn-dark btn-clear'}>{lt('search.btn3')}</button>
+                                <button type="reset" value="Reset"
+                                        className={disable ? 'btn btn-dark btn-clear disable' : 'btn btn-dark btn-clear'}>{lt('search.btn3')}</button>
                             </div>
                         </div>
                     </form>
