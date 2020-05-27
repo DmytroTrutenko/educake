@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -10,13 +10,22 @@ import counterpart from "counterpart";
 import ruLang from "./lang/ru";
 import engLang from "./lang/en";
 import esstLang from "./lang/esst";
+import requestApiForEachUnivers, {arrayUniverDiscId} from "./logic/api";
 
 counterpart.registerTranslations('ruLang', ruLang);
 counterpart.registerTranslations('engLang', engLang);
 counterpart.registerTranslations('esstLang', esstLang);
-counterpart.setLocale('esstLang');
+counterpart.setLocale('ruLang');
 
 function App() {
+
+    useEffect(() => {
+        const fetchData = async () => {
+            await requestApiForEachUnivers();
+        };
+        fetchData();
+    }, [arrayUniverDiscId]);
+
 
     const [lang, setLang] = useState('esstLang');
 
